@@ -2,9 +2,9 @@ package Es2;
 
 public class Call {
     private int duration;
-    private int number;
+    private String number;
 
-    public Call(int duration, int number) {
+    public Call(int duration, String number) {
         this.duration = duration;
         this.number = number;
     }
@@ -13,7 +13,7 @@ public class Call {
         return duration;
     }
 
-    public int getNumber() {
+    public String getNumber() {
         return number;
     }
 }
